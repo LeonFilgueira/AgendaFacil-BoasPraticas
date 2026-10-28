@@ -1,9 +1,9 @@
 public class Atendimento {
-    private String paciente;
-    private String profissional;
+    private final String paciente;
+    private final String profissional;
     private String data;
     private int horario;
-    private int duracao;
+    private final int duracao;
     private String status;
 
     public Atendimento(String paciente, String profissional, String data, int horario, int duracao, String status) {
